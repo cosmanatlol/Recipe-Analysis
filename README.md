@@ -10,7 +10,7 @@ The Recipe CSV file contain all information about nutrition of recipes, number o
 ## Exploratory Data Analysis
 To start, lets look at how exactly the distribution of steps looks like:
 
-<iframe src="assets/count_steps_recipes.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="/assets/count_steps_recipes.html" width=800 height=600 frameBorder=0></iframe>
 
 As we see it looks like the distribution of steps is centered around 9 and its appears to follow a normal distribution which is what we would expect with such a large sample size. Hence we will be able to conduct a hypothesis test centered around 9 to see nutritional affect in the future. Lets also look at the distribution of a specific nutrient type (fat):
 <iframe src="/assets/fatper_recipe.html" width=800 height=600 frameBorder=0></iframe>
