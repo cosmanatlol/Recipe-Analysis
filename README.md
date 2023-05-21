@@ -10,13 +10,13 @@ The Recipe CSV file contain all information about nutrition of recipes, number o
 ## Exploratory Data Analysis
 To start, lets look at how exactly the distribution of steps looks like:
 
-<iframe src="/assets/count_steps_recipes.html" width=800 height=600 frameBorder=0></iframe>
+(/assets/count_steps_recipes.html)
 
 As we see it looks like the distribution of steps is centered around 9 and its appears to follow a normal distribution which is what we would expect with such a large sample size. Hence we will be able to conduct a hypothesis test centered around 9 to see nutritional affect in the future. Lets also look at the distribution of a specific nutrient type (fat):
 <iframe src="/assets/fatper_recipe.html" width=800 height=600 frameBorder=0></iframe>
 As we can see the fat appears to have a ton of 0 values, this would mean that not all recipes have fat which might skew our distribution when we conduct a hypothesis test. Now lets see the distribution of number of steps vs carbohydrates.
 
-<iframe  width=800 height=600 frameBorder=0 src="/assets/steps_vs_carbs.html"></iframe>
+<iframe src="/assets/steps_vs_carbs.html" width=800 height=600 frameBorder=0></iframe>
 
 This graph appears to follow some linear distribution with a higher amount of steps correlating to a higher amount of carbohydrates. But another question that can be asked is what if steps is not the true reason for higher nutrition, but instead a higher amount of steps results in higher amount of ingredient which instead is the cause for higher nutrition. We can see whether or not his is true by creating a pivot table with index as the steps, ingredients as the columns and values as calories. 
 
